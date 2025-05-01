@@ -1,0 +1,63 @@
+pandas
+Kaggle
+
+for connecting with mysql library rquired like 
+1. pymysql
+2. sqlalchemy
+
+for connecting with postgresql library required like
+1. sqlalchemy 
+2. psycopg2
+
+#Instructions & Termnal Commands
+
+
+# Environment Setup
+
+## Windows Command Prompt Commands
+```cmd
+:: Install Python from the official website if not installed.
+:: Make sure to check "Add Python to PATH" during installation.
+
+:: Install pip if not installed (comes with Python installations).
+python -m ensurepip --upgrade
+```
+
+# Kaggle API Setup
+
+
+# Kaggle API Setup
+
+## Windows Commands
+```bash
+# Create a Kaggle account if you don't have one.
+# Go to your account settings and click on "Create New API Token".
+# This will download a file called kaggle.json.
+
+# Create a directory for Kaggle configuration
+mkdir %USERPROFILE%\.kaggle
+
+# Move kaggle.json to the Kaggle directory
+# Use the following commands to copy the kaggle.json file:
+copy %USERPROFILE%\Downloads\kaggle.json %USERPROFILE%\.kaggle\   # Windows
+
+
+# Download Datasets
+
+## Windows Commands
+```bash
+# Navigate to the directory where you want to download the dataset
+cd path/to/your/directory
+
+# Example: Download a dataset (replace 'dataset-name' with the actual dataset slug)
+kaggle datasets download -d dataset-name
+
+# Unzip the dataset
+
+# Install Required Libraries
+
+## Both macOS and Windows Commands
+```bash
+# Install the necessary Python libraries
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
